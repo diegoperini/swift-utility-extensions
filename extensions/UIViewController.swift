@@ -5,7 +5,7 @@ extension UIViewController {
     }
 
     func dismissModal() {
-        self.dismissViewControllerAnimated(false, completion: {})
+        self.dismissViewControllerAnimated(true, completion: {})
     }
-    
+
 }
